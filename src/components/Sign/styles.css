@@ -1,0 +1,15 @@
+.form-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6.4rem;
+}
+
+.form-display form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 1.6rem;
+}
